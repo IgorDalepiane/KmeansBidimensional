@@ -11,7 +11,7 @@ py kmeans.py
 
 It will show you the clusters with their respective centers, like the image below:
 
-![alt text](https://media.discordapp.net/attachments/761743510197895199/781589449888235540/unknown.png" Plotted results")
+![PlottedResults](https://user-images.githubusercontent.com/9628068/100392138-58aacd80-3014-11eb-9d71-a9c245b31783.png)
 
 And to see which elements belong to which cluster, it is necessary to use gnuplot.
 
@@ -21,6 +21,6 @@ gnuplot> plot "clusters/0.dat","clusters/1.dat","clusters/2.dat","clusters/3.dat
 
 And the result will be this:
 
-![alt text](https://media.discordapp.net/attachments/761743510197895199/781589491713572925/unknown.png" Gnuplot results")
+![GnuplotResults](https://user-images.githubusercontent.com/9628068/100392159-6b250700-3014-11eb-95c9-cd8a7febabf9.png)
 
 :)
