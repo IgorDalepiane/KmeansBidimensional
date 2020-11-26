@@ -80,12 +80,14 @@ for i in range(0,c):
   f.close()
 
 # Groups cluster centers for plotting
+f = open("./clusters/centroids.dat", "w")
 cX=[]
 cY=[]
 for i in range(0,c):
+  f.write(str(cCenters[i][0])+" "+str(cCenters[i][1])+"\n")
   cX.append(cCenters[i][0])
   cY.append(cCenters[i][1])
-
+f.close()
 # Plot the result
 plt.plot(x1,x2,"b.")
 plt.plot(cX,cY,"ro")
