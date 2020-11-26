@@ -1,6 +1,10 @@
 from matplotlib import *
 from random import *
 
+######################################
+#  Code made by Marcelo Resende Thielo
+######################################
+
 def readtable(name):
 	f = open(name, 'r')
 	lines = f.readlines()
@@ -30,6 +34,3 @@ def writefile(name,array):
 
 def column(matrix, i):
     return [float(row[i]) for row in matrix]
-
-def row(matrix):
-    return [[float(row[0]),float(row[1])] for row in matrix]
