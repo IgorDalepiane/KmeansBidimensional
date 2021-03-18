@@ -11,7 +11,7 @@ from math import sqrt
 # together with professor Marcelo Resende Thielo.  #
 ####################################################
 
-tableData = readtable('datagen/dataX.dat')
+tableData = readtable('data2.dat')
 
 # Values with their respective clusters
 newTable = []
